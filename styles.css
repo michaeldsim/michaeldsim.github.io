@@ -1,0 +1,51 @@
+* {
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.words {
+    color: red;
+    font-weight: bold;
+}
+
+.picture {
+    text-align: center;
+    padding: 20px;
+}
+
+a:hover {
+    color: #333;
+}
+
+img {
+    margin: 20px;
+}
+
+th {
+    background-color: #333;
+}
+
+td {
+    color: #333;
+}
+
+table {
+    background-color: lightblue;
+    text-align: center;
+    width: 30%;
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: skyblue;
+}
+
+ul {
+    list-style-position: inside;
+}
